@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.9);
+    background-image: url(./images/films/promo_web_posters_bg.png);
+    background-blend-mode: overlay;
+    background-repeat: none;
+}
+
+.container{
+    width: 35%;
+    height: 700px;
+    margin-top: 35px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius:solid black;
+    background-blend-mode: overlay;
+}
+
+.container .text2{
+    color: white;
+    font-size: 19px;
+    padding-top: 1px;
+    
+}
+.container .logo img{
+    width: 160px;
+    margin-top: 50px;
+}
+.container .text1{
+    color: white;
+    font-size: 25px;
+    padding-top:10px ;
+}
+
+.container .google{
+    width: 90%;
+    height: 35px;
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+.container .facebook{
+    width: 90%;
+    height: 35px;
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 6px;
+}
+.container .apple{
+    width: 90%;
+    height: 35px;
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 6px;
+}
+.container .google a{
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.container .facebook a{
+    padding-top: 20px;
+    color: black;
+    text-decoration: none;
+}
+.container .apple a{
+    padding-top: 20px;
+    color: black;
+    text-decoration: none;
+}
+.clear
+{
+    clear: both;
+}
+.container .google img{
+    float: right;
+    width: 38px;
+    padding-top: 3px;
+    padding-right: 5px;
+
+}
+.container .facebook img{
+    float: right;
+    width: 35px;
+    padding-top: 3px;
+    padding-right: 5px;
+
+}
+.container .apple img{
+    float: right;
+    width: 35px;
+    padding-top: 3px;
+    padding-right: 5px;
+
+}
+
+hr{
+    margin-top: 37px;
+}
+.container .email{
+    
+    width: 90%;
+    height: 35px;
+    border-radius: 4px;
+    border-color: rgb(161, 161, 161);
+    margin-top: 25px;
+    background: none;
+    text-align: right;
+    text-decoration-color: white;
+    color: white;
+
+
+}
+.container .password{
+    width: 90%;
+    height: 35px;
+    border-radius: 4px;
+    border-color: rgb(161, 161, 161);
+    margin-top: 12px;
+    background-color: rgb(0, 0, 0);
+    text-align: right;
+    text-decoration-color: white;
+    color: white;
+
+}
+.container .button1{
+    width: 90%;
+    height: 37px;
+    border-color: yellow;
+    border-radius: 4px ;
+    margin-top: 29px; 
+    color: black;
+    background-color:yellow ;
+    box-shadow: inset 0 0 0 black;
+    font-size: 20px;
+    
+    outline: none;
+}
+.container .button1:hover{
+    color: yellow;
+    background-color: black;
+    cursor: pointer;
+    border-color: yellow;
+    transition: ease-out 0.7s;
+}
+.container .text3{
+    color: gray;
+    font-size: 16px;
+    margin-top: 8px;
+}
+.container .a2{
+    color: white;
+}
+.container .a4{
+    color: white;
+    margin-top: 11px;
+    text-decoration: none;
+}
